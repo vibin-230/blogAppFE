@@ -4,7 +4,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
-      {children}
+      <div className="mt-16">{children}</div>
       <h1>Footer</h1>
     </>
   );
